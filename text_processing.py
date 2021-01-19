@@ -62,8 +62,8 @@ def no_vowels(input_string):
     """    
     no_vowel_string = None
     no_vowel_string = input_string.replace('a', '')
-    no_vowel_string = input_string.replace('e', '')
-    no_vowel_string = input_string.replace('i', '')
-    no_vowel_string = input_string.replace('o', '')
-    no_vowel_string = input_string.replace('u', '')
+    no_vowel_string = no_vowel_string.replace('e', '')
+    no_vowel_string = no_vowel_string.replace('i', '')
+    no_vowel_string = no_vowel_string.replace('o', '')
+    no_vowel_string = no_vowel_string.replace('u', '')
     return no_vowel_string
